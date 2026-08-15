@@ -27,11 +27,11 @@ Utilizando el dataset público de Taxis de Nueva York (enero de 2015, +12 millon
 ## Insights Clave de Negocio (Enero 2015)
 El modelo de datos permitió descubrir los siguientes hallazgos al analizar el reporte final:
 * **Ingresos y Adopción:** Un volumen de recaudación de **$188.3M**, donde la tarjeta de crédito ya dominaba el mercado con más de 7 millones de transacciones.
-* **Competitividad:** Un duopolio equilibrado en la provisión de tecnología en los vehículos (VeriFone Inc. con 52.7% y Creative Mobile Technologies con 47.2%).
+* **Competitividad:** Un duopolio equilibrado en la provisión de tecnología en los vehículos (VeriFone Inc. con 54.01% y Creative Mobile Technologies con 45.99%).
 * **Anomalía Climática:** Se identificó una caída drástica en el volumen de ingresos entre el 26 y 27 de enero, que cruzado con datos históricos, corresponde directamente a la tormenta de nieve histórica que paralizó la ciudad de Nueva York.
 
 ## Cómo ejecutar este proyecto
-1. Clonar este repositorio: `git clone https://github.com/Bidobelemti/nyc-taxi-fabric-pipeline`
+1. Clonar este repositorio: `git clone https://github.com/Bidobelemti/yellowtrip_dataset`
 2. Importar los Notebooks (`.ipynb`) directamente al Workspace de Microsoft Fabric.
 3. Actualizar la ruta `Files/` en el código de lectura para que apunte a tu propio Lakehouse.
 4. Ejecutar el pipeline de procesamiento Bronze -> Silver -> Gold.
